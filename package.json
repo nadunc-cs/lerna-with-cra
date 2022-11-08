@@ -1,0 +1,19 @@
+{
+  "name": "@portal/root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna run bootstrap",
+    "link": "lerna link",
+    "build": "lerna run build",
+    "start:app1": "lerna exec --scope @portal/app1 -- yarn start",
+    "start:app2": "lerna exec --scope @portal/app2 -- yarn start"
+  },
+  "devDependencies": {
+    "craco": "^0.0.3",
+    "lerna": "^6.0.3",
+    "serve": "^14.1.0"
+  }
+}
