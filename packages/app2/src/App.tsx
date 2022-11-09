@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Button } from '@portal/design-system2';
 
 function App() {
   // return (
@@ -22,7 +23,17 @@ function App() {
   //   </div>
   // );
 
-  return <h1>App2</h1>;
+  return (
+    <>
+      <h1>App2</h1>
+      <Button
+        label="label"
+        onClick={() => {
+          console.log('clicked');
+        }}
+      />
+    </>
+  );
 }
 
 export default App;

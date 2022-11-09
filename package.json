@@ -12,8 +12,8 @@
     "start:app2": "lerna exec --scope @portal/app2 -- yarn start"
   },
   "devDependencies": {
-    "craco": "^0.0.3",
-    "lerna": "^6.0.3",
-    "serve": "^14.1.0"
+    "@craco/craco": "7.0.0",
+    "lerna": "6.0.3",
+    "serve": "14.1.0"
   }
 }

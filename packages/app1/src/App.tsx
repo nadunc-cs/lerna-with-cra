@@ -28,6 +28,7 @@ function App() {
   return (
     <>
       <h1>App1</h1>
+      <img src={logo} className="App-logo" alt="logo" />
       <Button
         label="thi is a button"
         onClick={() => {
